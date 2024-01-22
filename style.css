@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    background-color: bisque;
+    color: #000000;
+    height: 4rem;
+    line-height: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.choice {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    opacity : 0.75;
+    cursor: pointer;
+    background-color: #7c7c7c;    
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.65rem;
+    margin-top: 4rem;
+    gap: 6.5rem;
+} 
+
+#user-score,
+#computer-score {
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 4rem;
+}
+
+#msg {
+    background-color: bisque ;
+    color: #000000;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2.75rem;
+}
